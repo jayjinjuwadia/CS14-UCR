@@ -1,0 +1,30 @@
+digraph G {
+a[color = lightblue, style = filled, label=Nile0];
+a->d;
+a->g;
+b[color = lightblue, style = filled, label=Mondavi-1];
+b->c;
+b->a;
+b->f;
+b->h;
+c[color = lightblue, style = filled, label=Lodi-1];
+c->b;
+c->d;
+c->e;
+d[color = lightblue, style = filled, label=Rivoli1];
+d->a;
+e[color = lightblue, style = filled, label=Pyramids-1];
+e->b;
+e->c;
+e->g;
+f[color = lightblue, style = filled, label=Zurich-1];
+f->a;
+f->e;
+f->c;
+g[color = lightblue, style = filled, label=Marengo1];
+g->d;
+h[color = lightblue, style = filled, label=Friedland-1];
+h->b;
+h->a;
+h->g;
+}

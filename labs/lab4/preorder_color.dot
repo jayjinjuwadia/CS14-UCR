@@ -1,0 +1,6 @@
+digraph G {
+a [color = lightblue, style = filled, label="key=2, in=0"];
+a->b
+a->c
+b [color = lightblue, style = filled, label="key=1, in=1"];
+c [color = lightblue, style = filled, label="key=3, in=2"];

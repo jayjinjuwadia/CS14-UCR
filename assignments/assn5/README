@@ -1,0 +1,4 @@
+I implemented the graph output and included its call in
+my overloaded graph constructor. Just call the graph constructor 
+with Jug J as the argument and it will output graph to 
+output.txt.

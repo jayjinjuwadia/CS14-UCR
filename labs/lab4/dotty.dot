@@ -1,0 +1,12 @@
+digraph G {
+a [color = lightblue, style = filled, label="key=1, h=0"];
+b [color = lightblue, style = filled, label="key=6, h=1"];
+c [color = lightblue, style = filled, label="key=0, h=1"];
+d [color = lightblue, style = filled, label="key=9, h=2"];
+e [color = lightblue, style = filled, label="key=2, h=2"];
+
+a->b;
+a->c;
+b->d;
+b->e;
+}
